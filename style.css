@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+header {
+  padding: 15px 70px;
+  display: inline-block;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+}
+
+.menu {
+  float: right;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 25px;
+}
+
+ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+
+.left {
+  width: 50%;
+  float: left;
+  text-align: right;
+  padding: 0 0 0 80px;
+}
+
+.right {
+  width: 50%;
+  float: right;
+  padding: 100px 50px;
+}
+
+.right h1 {
+  font-size: 72px;
+  font-weight: 500;
+}
+
+.right p {
+  padding: 15px 0;
+  font-size: 16px;
+}
+
+.right a {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #ffb300;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 50px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.16);
+}
+
+.square {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  background-color: #ffb300;
+  z-index: -1;
+}
+
+.grid {
+  position: relative;
+  bottom: 70px;
+  left: -69.5rem;
+  color: #0000000f;
+}
+
+.grid img {
+  opacity: .8;
+  width: 17%;
+}
+
+.scrolldown {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  font-weight: 500;
+  transform: rotate(90deg);
+}
